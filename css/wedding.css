@@ -1,0 +1,152 @@
+#wed{
+	width:1180px;
+}
+/*左边婚礼操办 界面切换*/
+#wed .left{
+	width:830px;
+	margin-left:40px;
+	float:left;
+}
+#wed .left h3{
+	width:830px;
+	line-height: 80px;
+	text-align: right;
+	
+}
+#wed .left h3 span{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	float:left;
+}
+#wed .left h3 img{
+	margin-left:6px;
+	vertical-align: middle;
+}
+/*婚礼内容样式*/
+#wed .left .group dl{
+	width:830px;
+	padding:30px 0px;
+	border-top:1px solid #E8E8E8;
+}
+#wed .left .group dl dt{
+	width:240px;
+	line-height:240px;
+	float:left;
+	border:1px solid #E8E8E8;
+	text-align: center;
+}
+#wed .left .group dl dt img{
+	vertical-align: middle;
+}
+#wed .left .group dl dd{
+	width:550px;	
+	float:right;
+}
+#wed .left .group dl dd p.p1{
+	line-height:30px;
+	padding-top:10px;
+}
+#wed .left .group dl dd p.p1 a{
+	color:#000;
+	font-size:20px;
+	font-family: "微软雅黑";
+}
+#wed .left .group dl dd p.p1 a:hover{
+	color:brown;
+}
+#wed .left .group dl dd p.p2{
+	color:grey;
+	line-height:35px;
+}
+
+#wed .left .group dl dd p.p3{
+	font-size:14px;
+	line-height: 25px;
+	text-indent:30px;
+}
+
+#wed .left .group dl dd p.p4{
+	margin-top:30px;
+	line-height:35px;
+	width:70px;
+	text-align: center;
+	background-color: #F1F1F1;
+}
+#wed .left .group dl dd p.p4 a{
+	font-size: 14px;
+	color:#6F6F6F;
+}
+#wed .left .group dl dd p.p4 a:hover{
+	color:brown;
+}
+/*group1的样式方案*/
+#wed .left hr{
+	width:830px;
+	border:0px;
+	border-top:1px solid #E8E8E8;
+	display:none;
+	margin-top:4px;
+}
+#wed .left .group1{
+	width:266px;
+	float:left;
+	margin-left:10px;
+}
+#wed .left .group1 dl{
+	width:266px;
+	border:1px solid #E8E8E8;
+	margin-top:20px;
+}
+#wed .left .group1 dl dt{
+	width:266px;
+	text-align: center;
+}
+#wed .left .group1 dl dt img{
+	width:266px;
+	height:auto;
+}
+#wed .left .group1 dl dd{
+	width:266px;
+}
+#wed .left .group1 dl dd p.p1{
+	line-height:40px;
+	text-indent: 10px;
+}
+#wed .left .group1 dl dd p.p1 a{
+	color:#000;
+	font-size:16px;
+	font-family: "微软雅黑";
+}
+#wed .left .group1 dl dd p.p1 a:hover{
+	color:brown;
+}
+#wed .left .group1 dl dd p.p2{
+	font-size: 14px;
+	color:grey;
+	line-height:36px;
+	float:left;
+	width:195px;
+	background: #F1F1F1;
+	border-top:1px solid #E8E8E8;
+	border-right:1px solid #E8E8E8;
+}
+
+#wed .left .group1 dl dd p.p3{
+	display:none;
+}
+
+#wed .left .group1 dl dd p.p4{
+	line-height:35px;
+	width:70px;
+	text-align: center;
+	background-color: #F1F1F1;
+	float:right;
+	border-top:1px solid #E8E8E8;
+}
+#wed .left .group1 dl dd p.p4 a{
+	font-size: 14px;
+	color:#6F6F6F;
+}
+#wed .left .group1 dl dd p.p4 a:hover{
+	color:brown;
+}

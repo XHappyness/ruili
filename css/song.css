@@ -1,0 +1,10 @@
+#singer{
+	width:1000px;
+	height:700px;
+	border:1px solid gray;
+	margin:10px auto;
+	position:relative;
+}
+#singer img{
+	position:absolute;
+}

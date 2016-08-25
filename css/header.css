@@ -1,0 +1,163 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	text-decoration:none;
+	font-size:12px;
+}
+/*登录、注册 弹框*/
+#drag{
+	height:400px;
+	width:600px;
+	border:1px solid grey;
+	background-color:#fff ;
+	position:absolute;
+	z-index:55;
+	display:none;
+}
+#drag .title{
+	width:100%;
+	height:50px;
+	background-color:red ;
+	cursor:move;
+}
+hr{
+	width:1180px;
+	margin:30px auto;
+	border:0px;
+	border-top:1px solid #E8E8E8;
+}
+/*头部top相关样式*/
+#top{
+	width:100%;
+	height:30px;
+	background-color:#EE1C25;
+}
+#top .topCon{
+	width:1150px;
+	height:30px;
+	margin:0 auto;
+	line-height:30px;
+}
+#top .topCon a{
+	float:right;
+	text-decoration:none;
+	color:#e3e3e3;
+	margin-left:20px;
+}
+#top .topCon a:hover{
+	color:#fff;
+}
+#top .topCon img.seaImg{
+	float:right;
+	margin-top:7px;
+}
+#top .topCon .search{
+	width:0px;
+	height:30px;
+	float:right;
+	position:relative;
+	overflow:hidden;
+}
+
+#top .topCon .search input.seaTxt{
+	width:230px;
+	height:20px;
+	position:absolute;
+	left:0px;
+	top:5px;
+	border:0px;
+	border-radius:5px;
+	text-indent:30px;
+}
+#top .topCon .search input.seaBtn{
+	width:30px;
+	height:20px;
+	position:absolute;
+	left:0px;
+	top:5px;
+	background:url("../images/search2.gif") no-repeat center;
+	border:0px;
+}
+
+/*banner 样式*/
+#banner{
+	width:100%;
+	height:130px;
+	text-align:center;
+	background-color:#EE1C25;
+	line-height:100px;
+}
+#banner img{
+	vertical-align: middle;
+}
+
+/*导航样式*/
+#logo{
+	width:100%;
+	height:70px;
+	background-color:#C6171E;
+}
+#logo .logoCon{
+	width:1180px;
+	height:70px;
+	margin:0 auto;
+}
+#logo .logoCon dl{
+	width:250px;
+	height:70px;
+	float:left;
+	margin-left:14px;
+}
+#logo .logoCon dl dt{
+	width:50px;
+	line-height:70px;
+	font-family:"微软雅黑";
+	font-size:20px;
+	color:#fff;
+	float:left;
+}
+#logo .logoCon dl dd{
+	width:200px;
+	height:70px;
+	line-height:32px;
+	float:right;
+}
+#logo .logoCon dl dd a{
+	font-family:"微软雅黑";
+	font-size:16px;
+	color:#fff;
+	margin-left:25px;
+}
+#logo .logoCon dl dd a:hover{
+	color:#e989ac;
+}
+#logo .logoCon dl.menu2{
+	width:190px;
+}
+#logo .logoCon dl.menu2 dd{
+	width:140px;
+}
+#logo .logoCon dl.menu3{
+	width:230px;
+}
+#logo .logoCon dl.menu3 dd{
+	width:180px;
+}
+#logo .logoCon dl.menu3 dd a{
+	position:relative;
+}
+#logo .logoCon dl.menu3 dd a img.new{
+	position:absolute;
+	top:2px;
+}
+#logo .logoCon a.apps{
+	background:url("../images/app.gif") no-repeat 30px 30px;
+	float:left;
+	display:block;
+	width:150px;
+	height:70px;
+}
+#logo .logoCon a.apps:hover{
+	background-position:30px 25px;/*鼠标放上去，图片上升*/
+}
